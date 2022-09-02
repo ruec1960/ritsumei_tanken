@@ -1,0 +1,176 @@
+header {
+  height: 65px;
+  width: 100%;
+  background: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.top-wrapper {
+background-image: url(img/tanken.03.jpg);
+background-size: cover;
+height: 1000px;
+margin: 0% auto;
+
+}
+
+.top-wrapper h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 300px 0 100px 0;
+  font-family: serif;
+  color: aliceblue;
+  opacity: 0.85;
+}
+
+.fa-brands {
+  font-size: 50px;
+  color: aliceblue;
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.lesson-top {
+  padding-top: 200px;
+  font-size: 30px;
+  height: 600px;
+  margin: 0% auto;
+  text-align: center;
+  width: 80%;
+  font-family: inherit;
+}
+
+.lesson-top h {
+  border-bottom: 3px solid orangered;
+}
+
+
+
+.lesson-icon {
+  float: left;
+  width: 30%;
+  padding-left: 40px;
+  position: relative;
+  
+}
+
+
+
+.leson p:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.lesson p {
+  font-size: 180px;
+  color: whitesmoke; 
+  position: absolute;
+  top: -10px;
+  margin-top: 50px;
+  margin-left: 7px;
+  cursor: pointer;
+  box-shadow:black;
+  transition: all 0.5s;
+ 
+}
+
+.message-wrapper {
+  font-size: 30px;
+  padding-top: 350px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  font-family: serif;
+  
+}
+
+
+
+.footer {
+  background-color: gray;
+
+}
+
+.footer-list {
+  font-size: 30px;
+  float: right;
+  color: #eee;
+  padding-right: 10px;
+  
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+  
+}
+
+
+
+
+.SOT-wrapper {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+ 
+}
+
+.SOT-wrapper h2 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.timeline {
+  list-style: none;
+}
+.timeline > li {
+  margin-bottom: 60px;
+}
+
+/* for Desktop */
+@media ( min-width : 640px ){
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+  }
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
+  }
+}
+
+.rekisi h1 {
+ font-size: 40px;
+ padding-top: 60px;
+ border-bottom: 2px solid orangered;
+}
+
+.rekisi p {
+  font-size: 20px;
+  border-bottom: 2px solid orangered;
+}
+
+.link {
+  padding-top: 40px;
+  text-align: center;
+}
